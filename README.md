@@ -41,3 +41,4 @@ python eval.py \
     --image_root [path to input image directory] \ 
     --mask_root [path to masks directory]
 ```
+### The model after train saved in snapshots/pairsstreetview/ckpt/*.pth
