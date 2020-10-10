@@ -15,7 +15,7 @@ PyTorch implementation of "Image Inpainting for Irregular Holes Using Partial Co
 * Clone this repo:
 
 ```
-git clone https://github.com/Xiefan-Guo/PConv.git
+git clone https://github.com/tangxiran/PConv
 cd PConv
 ```
 
