@@ -23,6 +23,7 @@ parser.add_argument('--crop_size', type=int, default=256, help='image training s
 parser.add_argument('--image_root', type=str, default='')
 parser.add_argument('--mask_root', type=str, default='')
 parser.add_argument('--result_root', type=str, default='results/eval/default', help='train result')
+# how many pic u want to test
 parser.add_argument('--number_eval', type=int, default=10000, help='number of batches eval')
 args = parser.parse_args()
 

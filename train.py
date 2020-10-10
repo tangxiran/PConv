@@ -20,7 +20,7 @@ from src import config
 
 import torch.multiprocessing
 torch.multiprocessing.set_sharing_strategy('file_system')
-
+# python train.py  --image_root datasets\ --mask_root masks\ --batch_size 16 --pre_trained snapshots\PairsStreetView\ckpt\
 parser = argparse.ArgumentParser()
 parser.add_argument('--num_workers', type=int, default=0, help='workers for dataloader')
 parser.add_argument('--image_root', type=str, default='')
